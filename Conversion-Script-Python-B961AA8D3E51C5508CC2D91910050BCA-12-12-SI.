@@ -36,12 +36,4 @@ elif choix == "0":
 print("Merci d'avoir utilisé le script. À bientôt !")
 break  # Sortie de la boucle et fin du script
 else:
-print("Option invalide.")er :")
-# Logique appliquée pour chaque option
-if choix == "1":
-decimal = int(input("Entrez un nombre décimal :"))
-print(f"Le nombre {decimal} en binaire est {bin(decimal)[2:]}")
-elif choix == "2":
-decimal = int(input("Entrez un nombre décimal :"))
-print(f"Le nombre {decimal} en octal est {oct(decimal)[2:]}")
-elif choix == 
+print("Option invalide.")
