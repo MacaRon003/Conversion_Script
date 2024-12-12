@@ -1,0 +1,47 @@
+# Script de conversion : Décimal ↔ binaire, Octal, Hexadécimal
+# Ce script permet de convertir un nombre décimal en base 2, 8 ou 16 et inversement.
+
+while True:  # Entrée de la boucle permettant au script de tourner indéfiniment jusqu'à ce que l'utilisateur décide de quitter.
+# Menu des différentes options de conversion
+print("===== Script de Conversion =====")
+print("1. Décimal vers Binaire")
+print("2. Décimal vers Octal")
+print("3. Décimal vers Hexadécimal")
+print("4. Binaire vers Décimal")
+print("5. Octal vers Décimal")
+print("6. Hexadécimal vers Décimal")
+print("0. Quitter")
+
+choix = input("Entrez le numéro de l'option que vous souhaitez utiliser :")
+# Logique appliquée pour chaque option
+if choix == "1":
+decimal = int(input("Entrez un nombre décimal :"))
+print(f"Le nombre {decimal} en binaire est {bin(decimal)[2:]}")
+elif choix == "2":
+decimal = int(input("Entrez un nombre décimal :"))
+print(f"Le nombre {decimal} en octal est {oct(decimal)[2:]}")
+elif choix == "3":
+decimal = int(input("Entrez un nombre décimal :"))
+print(f"Le nombre {decimal} en hexadécimal est {hex(decimal)[2:]}")
+elif choix == "4":
+binaire = input("Entrez un nombre binaire :")
+print(f"Le nombre {binaire} en décimal est {int(binaire,2)}")
+elif choix == "5":
+octal = input("Entrez un nombre octal :")
+print(f"Le nombre {octal} en décimal est {int(octal,8)}")
+elif choix == "6":
+hexadecimal = input("Entrez un nombre hexadécimal :")
+print(f"Le nombre {hexadecimal} en décimal est {int(hexadecimal,16)}")
+elif choix == "0":
+print("Merci d'avoir utilisé le script. À bientôt !")
+break  # Sortie de la boucle et fin du script
+else:
+print("Option invalide.")er :")
+# Logique appliquée pour chaque option
+if choix == "1":
+decimal = int(input("Entrez un nombre décimal :"))
+print(f"Le nombre {decimal} en binaire est {bin(decimal)[2:]}")
+elif choix == "2":
+decimal = int(input("Entrez un nombre décimal :"))
+print(f"Le nombre {decimal} en octal est {oct(decimal)[2:]}")
+elif choix == 
